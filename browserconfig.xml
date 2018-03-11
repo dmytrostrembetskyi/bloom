@@ -2,10 +2,10 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square70x70logo src="/mstile-70x70.png?v=kPxzNaKlY0"/>
-            <square150x150logo src="/mstile-150x150.png?v=kPxzNaKlY0"/>
-            <square310x310logo src="/mstile-310x310.png?v=kPxzNaKlY0"/>
-            <wide310x150logo src="/mstile-310x150.png?v=kPxzNaKlY0"/>
+            <square70x70logo src="https://image.ibb.co/kCTEhn/mstile_70x70.png?v=kPxzNaKlY0"/>
+            <square150x150logo src="https://image.ibb.co/bySUF7/mstile_150x150.png?v=kPxzNaKlY0"/>
+            <square310x310logo src="https://image.ibb.co/hZbpF7/mstile_310x310.png?v=kPxzNaKlY0"/>
+            <wide310x150logo src="https://image.ibb.co/kypbv7/mstile_310x150.png?v=kPxzNaKlY0"/>
             <TileColor>#c2d6f7</TileColor>
         </tile>
     </msapplication>
