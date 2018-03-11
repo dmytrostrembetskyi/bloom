@@ -1,0 +1,18 @@
+{
+    "name": "",
+    "short_name": "",
+    "icons": [
+        {
+            "src": "https://image.ibb.co/dPh4yS/android_chrome_192x192.png?v=XBzapEP33e",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://image.ibb.co/nujv57/android_chrome_512x512.png?v=XBzapEP33e",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#c2d6f7",
+    "background_color": "#c2d6f7"
+}
