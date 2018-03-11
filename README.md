@@ -1,5 +1,5 @@
-
 # Useful resources
-https://imgbb.com/
-https://transfonter.org/
-https://realfavicongenerator.net/
+
+- https://imgbb.com/
+- https://transfonter.org/
+- https://realfavicongenerator.net/
