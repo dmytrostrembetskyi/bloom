@@ -1,0 +1,67 @@
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.display-block {
+    display: block;
+}
+
+.flex-wrap-wrap {
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-flex-star {
+    justify-content: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.background-repeat-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.background-position-center {
+    background-position: center;
+}
+
+.background-position-center-top {
+    background-position: center top;
+}
+
+.background-size-cover {
+    background-size: cover;
+}

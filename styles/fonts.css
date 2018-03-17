@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Annabelle';
+    src: url('https://raw.githubusercontent.com/dmytrostrembetskyi/fonts/master/Annabelle.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Book Antiqua';
+    src: url('https://raw.githubusercontent.com/dmytrostrembetskyi/fonts/master/BookAntiqua.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

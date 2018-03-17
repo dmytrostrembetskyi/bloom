@@ -1,0 +1,39 @@
+.opacity-0_75 {
+    opacity: 0.75;
+}
+
+.border-0 {
+    border: 0;
+}
+
+.border-radius-50 {
+    border-radius: 50%;
+}
+
+.border-radius-0_5rem {
+    border-radius: 0.5rem;
+}
+
+.border-top-right-radius-0_5rem {
+    border-top-right-radius: 0.5rem;
+}
+
+.border-top-left-radius-0_5rem {
+    border-top-left-radius: 0.5rem;
+}
+
+.border-bottom-left-radius-0_5rem {
+    border-bottom-left-radius: 0.5rem;
+}
+
+.border-bottom-right-radius-0_5rem {
+    border-bottom-right-radius: 0.5rem;
+}
+
+.font-family-annabelle {
+    font-family: 'Annabelle';
+}
+
+.font-family-book-antiqua {
+    font-family: 'Book Antiqua';
+}
