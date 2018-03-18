@@ -1,8 +1,7 @@
 'use strict';
 
-function Preloader() {
-    var realBody = document.getElementById('real-body');
-    this.body = realBody;
+function Preloader(body) {
+    this.body = body;
 };
 
 Preloader.prototype.load = function () {
@@ -17,12 +16,27 @@ Preloader.prototype.preparePage = function () {
         "position-relative"
     );
 
+    var wrapper = this.getLogoWrapper();
     var treeContainer = this.getTreeContainer();
     var placeholder = this.getSidebarPlaceholder();
-    this.body.appendChild(placeholder);
-    this.body.appendChild(treeContainer);
+
+    wrapper.appendChild(placeholder);
+    wrapper.appendChild(treeContainer);
+
+    this.body.appendChild(wrapper);
     this.treeContainer = treeContainer;
 };
+
+Preloader.prototype.getLogoWrapper = function () {
+    var wrapper = document.createElement('div');
+    wrapper.classList.add(
+        "position-absolute",
+        "height-100",
+        "width-100"
+    );
+
+    return wrapper;
+}
 
 Preloader.prototype.getSidebarPlaceholder = function () {
     var placeholder = document.createElement('div');
@@ -48,19 +62,30 @@ Preloader.prototype.getTreeContainer = function () {
 }
 
 Preloader.prototype.fetchImage = function () {
-    var preloader = this;
+    var image = this.getBigTree();
+    image.src = constants.url.images.bigTree;
+};
+
+Preloader.prototype.getBigTree = function () {
     var image = new Image();
     image.classList.add(
         "width-8rem"
     );
+
+    var preloader = this;
     image.addEventListener("load", function (event) {
         preloader.show(image);
     });
-    image.src = constants.bigTreeUrl;
+
+    return image;
 };
 
+
 Preloader.prototype.show = function (image) {
-    $(image).hide();
+    image.style.display = 'none';
     this.treeContainer.appendChild(image);
-    $(image).fadeIn(constants.animationSpeed);
+
+    $(image).fadeIn(constants.animationSpeed.step, () => {
+        pageContainer.fetchImagesAndBuildPage();
+    });
 };
