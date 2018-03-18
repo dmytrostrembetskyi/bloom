@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="ua" class="height-100">
 
 <head>
     <!-- #default settings -->
@@ -18,17 +18,17 @@
 
     <!-- For Android -->
     <meta name="theme-color" content="#c2d6f7">
-    <link rel="manifest" href="/icons/settings/manifest.webmanifest">
+    <link rel="manifest" href="icons/settings/manifest.webmanifest">
 
     <!-- For Windows -->
     <meta name="application-name" content="108">
     <meta name="msapplication-TileColor" content="#c2d6f7">
-    <meta name="msapplication-config" content="/icons/settings/browserconfig.xml">
+    <meta name="msapplication-config" content="icons/settings/browserconfig.xml">
 
     <!-- For Apple -->
     <meta name="apple-mobile-web-app-title" content="108">
     <link rel="apple-touch-icon" sizes="180x180" href="https://image.ibb.co/nb2xUc/apple_touch_icon.png">
-    <link rel="mask-icon" color="#c2d6f7" href="/icons/safari-pinned-tab.svg">
+    <link rel="mask-icon" color="#c2d6f7" href="icons/safari-pinned-tab.svg">
     <!-- #end icons -->
 
 
@@ -39,14 +39,16 @@
 
 
     <!-- #custom styles -->
-    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/fonts-src.css" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/media-queries.css" />
     <!-- #end custom styles -->
 </head>
 
 <body>
     <!-- #visible for user section -->
     <section id="real-body">
-       
+
     </section>
     <!-- #end visible for user section -->
 
@@ -57,6 +59,9 @@
 
 
     <!-- #custom scripts -->
+    <script src="scripts/constants.js"></script>
+    <script src="scripts/preloader.js"></script>
+    <script src="scripts/preload-manager.js"></script>
     <!-- #end custom scripts -->
 </body>
 

@@ -7,6 +7,10 @@
     height: 6rem;
 }
 
+.big-tree-container {
+    height: calc(100% - 6rem);
+}
+
 @media (min-width: 620px) {
     .nav-responsive {
         height: 6.5rem;
@@ -14,6 +18,9 @@
     }
     .height-navlike-responsive {
         height: 6.5rem;
+    }
+    .big-tree-container {
+        height: calc(100% - 6.5rem);
     }
 }
 
@@ -25,6 +32,9 @@
     .height-navlike-responsive {
         height: 7rem;
     }
+    .big-tree-container {
+        height: calc(100% - 7rem);
+    }
 }
 
 @media (min-width: 720px) {
@@ -35,6 +45,9 @@
     .height-navlike-responsive {
         height: 7.5rem;
     }
+    .big-tree-container {
+        height: calc(100% - 7.5rem);
+    }
 }
 
 @media (min-width: 770px) {
@@ -44,6 +57,9 @@
     }
     .height-navlike-responsive {
         height: 8rem;
+    }
+    .big-tree-container {
+        height: calc(100% - 8rem);
     }
 }
 
