@@ -1,0 +1,341 @@
+/* 
+============================================ 
+backgound
+*/
+
+.background-repeat-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.background-position-center {
+    background-position: center;
+}
+
+.background-position-center-top {
+    background-position: center top;
+}
+
+.background-size-cover {
+    background-size: cover;
+}
+
+.background-color-c2d6f7 {
+    background-color: #c2d6f7;
+}
+
+.background-color-white {
+    background-color: white;
+}
+
+.background-image-sidebar {
+    background-image: url("../images/vector/sidebar.png");
+}
+
+.background-image-brown-mountains {
+    background-image: url("../images/photo/brown-mountains.jpg");
+}
+
+.background-image-green-mountains {
+    background-image: url("../images/photo/green-mountains.jpg");
+}
+
+.background-image-caruosel-tree {
+    background-image: linear-gradient(to right, transparent 50%, rgba(0, 0, 0, 0.7)), url("../images/photo/tree.jpg");
+}
+
+.background-image-caruosel-chamomile {
+    background-image: linear-gradient(to right, transparent 50%, rgba(0, 0, 0, 0.7)), url("../images/photo/chamomile.jpg");
+}
+
+/*
+backgound
+============================================ 
+*/
+
+/* 
+============================================ 
+flex 
+*/
+
+.display-flex {
+    display: flex;
+}
+
+.flex-wrap-wrap {
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-flex-star {
+    justify-content: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+/* 
+flex 
+============================================ 
+*/
+
+/* 
+============================================ 
+absolute positioning 
+*/
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.top-8rem {
+    top: 8rem;
+}
+
+.right-1rem {
+    right: 1rem;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+/* 
+absolute positioning 
+============================================ 
+*/
+
+/*
+============================================ 
+height
+*/
+
+.height-5vh {
+    height: 5vh;
+}
+
+.height-100vh {
+    height: 100vh;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.height-80 {
+    height: 80%;
+}
+
+/* 
+height
+============================================ 
+*/
+
+/*
+============================================ 
+width
+*/
+
+.width-100 {
+    width: 100%;
+}
+
+.width-8rem {
+    width: 8rem;
+}
+
+.width-15rem {
+    width: 15rem;
+}
+
+/*
+width
+============================================ 
+*/
+
+/*
+============================================ 
+padding
+*/
+
+.padding-1rem {
+    padding: 1rem;
+}
+
+.padding-0_5rem {
+    padding: 0.5rem;
+}
+
+.padding-top-015rem {
+    padding-top: 0.15rem;
+}
+
+.padding-bottom-0_3rem {
+    padding-bottom: 0.3rem;
+}
+
+/*
+padding
+============================================ 
+*/
+
+/*
+============================================ 
+margin
+*/
+
+.margin-1rem {
+    margin: 1rem;
+}
+
+/*
+margin
+============================================ 
+*/
+
+/*
+============================================ 
+border
+*/
+
+.border-0 {
+    border: 0;
+}
+
+.border-radius-50 {
+    border-radius: 50%;
+}
+
+.border-radius-0_5rem {
+    border-radius: 0.5rem;
+}
+
+.border-top-right-radius-0_5rem {
+    border-top-right-radius: 0.5rem;
+}
+
+.border-top-left-radius-0_5rem {
+    border-top-left-radius: 0.5rem;
+}
+
+.border-bottom-left-radius-0_5rem {
+    border-bottom-left-radius: 0.5rem;
+}
+
+.border-bottom-right-radius-0_5rem {
+    border-bottom-right-radius: 0.5rem;
+}
+
+/*
+border
+============================================ 
+*/
+
+/*
+============================================ 
+appearing
+*/
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.z-index-3 {
+    z-index: 3;
+}
+
+.opacity-0_75 {
+    opacity: 0.75;
+}
+
+/*
+appearing
+============================================ 
+*/
+
+/*
+============================================ 
+text
+*/
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.color-0076a3 {
+    color: #0076a3;
+}
+
+.color-fff799 {
+    color: #fff799;
+}
+
+.font-family-annabelle {
+    font-family: 'Annabelle';
+}
+
+.font-family-book-antiqua {
+    font-family: 'Book Antiqua';
+}
+
+.font-size-091rem {
+    font-size: 0.91rem;
+}
+
+.font-size-2rem {
+    font-size: 2rem;
+}
+
+/*
+text
+============================================ 
+*/
+
+/*
+============================================ 
+mouse
+*/
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/*
+mouse
+============================================ 
+*/
