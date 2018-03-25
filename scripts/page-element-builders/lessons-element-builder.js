@@ -87,12 +87,12 @@ class LessonsElementBuilder {
     fillActualContent(mainContent) {
         const data = [{
                 city: "Львів",
-                address: "вулиця Такато, 108",
+                address: "вулиця Кокорудза, 9",
                 details: "*за попереднім записом"
             },
             {
                 city: "Івано-Франківськ",
-                address: "вулиця Михайла Грушевського 16",
+                address: "вулиця Михайла Грушевського, 16",
                 details: "*за попереднім записом"
             }
         ];
