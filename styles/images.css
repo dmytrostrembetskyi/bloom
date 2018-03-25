@@ -1,0 +1,19 @@
+.background-image-sidebar {
+    background-image: url("https://image.ibb.co/g6tfnn/sidebar.png");
+}
+
+.background-image-brown-mountains {
+    background-image: url("https://image.ibb.co/ep3PDS/brown_mountains.jpg");
+}
+
+.background-image-green-mountains {
+    background-image: url("https://image.ibb.co/ck3c07/green_mountains.jpg");
+}
+
+.background-image-caruosel-tree {
+    background-image: linear-gradient(to right, transparent 50%, rgba(0, 0, 0, 0.7)), url("https://image.ibb.co/ncssYS/tree.jpg");
+}
+
+.background-image-caruosel-chamomile {
+    background-image: linear-gradient(to right, transparent 50%, rgba(0, 0, 0, 0.7)), url("https://image.ibb.co/iUbann/chamomile.jpg");
+}

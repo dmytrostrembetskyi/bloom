@@ -12,6 +12,7 @@ var constants = {
     animationSpeed: {
         step: step,
         steps: {
+            one: step,
             two: step * 2,
             three: step * 3,
             four: step * 4,
