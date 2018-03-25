@@ -162,6 +162,14 @@ class ContainerElementBuilder {
             "color-0076a3");
         content.textContent = "Контакти";
 
+        const container = this.container;
+        content.addEventListener("click", () => {
+            if (container.canRefreshPage === false)
+                return;
+            container.canRefreshPage = false;
+            container.renderContactsPage();
+        });
+
         return content;
     }
     /*

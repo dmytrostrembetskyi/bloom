@@ -54,9 +54,9 @@ class PageContainer {
             $(this.carousel).slick('unslick');
 
             this.main.innerHTML = "";
-            var background = lessonsElementBuilder.getLessonsBackground();
+            var background = lessonsElementBuilder.getBackground();
             this.main.appendChild(background);
-            var lessonsContent = lessonsElementBuilder.getLessonsContent();
+            var lessonsContent = lessonsElementBuilder.getContent();
             background.appendChild(lessonsContent);
 
             $(this.main).fadeIn(constants.animationSpeed.steps.two, () =>
@@ -65,8 +65,24 @@ class PageContainer {
         });
     }
 
-    show(page) {
-        $(page)
+    renderContactsPage() {
+        $(this.main).fadeOut(constants.animationSpeed.steps.two, () => {
+            $(this.carousel).slick('unslick');
+            this.main.innerHTML = "";
+
+            var background = contactsElementBuilder.getBackground();
+            this.main.appendChild(background);
+            var content = contactsElementBuilder.getContent();
+            background.appendChild(content);
+
+            $(this.main).fadeIn(constants.animationSpeed.steps.two, () =>
+                this.show(content)
+            );
+        });
+    }
+
+    show(lastElementInAnimationChain) {
+        $(lastElementInAnimationChain)
             .fadeIn(constants.animationSpeed.steps.two, () =>
                 this.canRefreshPage = true
             )

@@ -1,4 +1,4 @@
-class LessonsElementBuilder {
+class ContactsElementBuilder {
 
     /*
     start public methods
@@ -6,7 +6,7 @@ class LessonsElementBuilder {
     getBackground() {
         const background = document.createElement("div");
         background.classList.add(
-            "background-image-green-mountains",
+            "background-image-brown-mountains",
             "background-repeat-no-repeat",
             "background-size-cover",
             "background-position-center",
@@ -18,7 +18,7 @@ class LessonsElementBuilder {
     }
 
     getContent() {
-        const container = this.getContentContainer();
+        var container = this.getContentContainer();
         const sidebarSpace = commonElementBuilder.getSidebarPlaceholder();
         container.appendChild(sidebarSpace);
 
@@ -61,7 +61,7 @@ class LessonsElementBuilder {
 
     getTitle() {
         const title = document.createElement('span');
-        title.textContent = "Розклад занять";
+        title.textContent = "Контакти";
         title.classList.add(
             "padding-1rem",
             "font-family-annabelle",
@@ -86,14 +86,9 @@ class LessonsElementBuilder {
 
     fillActualContent(mainContent) {
         const data = [{
-                city: "Львів",
-                address: "вулиця Такато, 108",
-                details: "*за попереднім записом"
-            },
-            {
-                city: "Івано-Франківськ",
-                address: "вулиця Михайла Грушевського 16",
-                details: "*за попереднім записом"
+                city: "Електронна пошта",
+                address: "sidlak108@gmail.com",
+                details: "Андрій"
             }
         ];
 
@@ -163,7 +158,6 @@ class LessonsElementBuilder {
 
     getLessonsItemDetails(details) {
         const itemDetails = document.createElement("i");
-        itemDetails.classList.add('font-size-085rem');
         itemDetails.textContent = details;
 
         return itemDetails;
@@ -171,5 +165,4 @@ class LessonsElementBuilder {
     /*
     end private methods
     */
-
 }
