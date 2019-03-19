@@ -89,7 +89,7 @@ class ContainerElementBuilder {
         content.classList.add(
             "text-align-right",
             "cursor-pointer",
-            "font-family-book-antiqua",
+            "font-family-annabelle",
             "color-0076a3");
         content.textContent = "Заняття";
 
@@ -158,7 +158,7 @@ class ContainerElementBuilder {
         const content = document.createElement("span");
         content.classList.add(
             "cursor-pointer",
-            "font-family-book-antiqua",
+            "font-family-annabelle",
             "color-0076a3");
         content.textContent = "Контакти";
 

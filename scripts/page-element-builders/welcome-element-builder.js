@@ -6,13 +6,11 @@ class WelcomeElementBuilder {
     getWelcomeTitle() {
         const title = document.createElement('div');
         title.classList.add(
-            "position-absolute",
+            "welcome-title-position",
             "font-family-annabelle",
-            "font-size-2rem",
+            "font-size-2-5rem",
             "z-index-2",
-            "color-fff799",
-            "top-8rem",
-            "right-1rem"
+            "color-fff799"
         );
         title.textContent = 'Життя - це диво';
         title.style.display = 'none';

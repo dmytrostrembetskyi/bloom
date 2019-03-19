@@ -65,7 +65,7 @@ class ContactsElementBuilder {
         title.classList.add(
             "padding-1rem",
             "font-family-annabelle",
-            "font-size-2rem",
+            "font-size-2-5rem",
             "color-0076a3"
         );
 
@@ -117,7 +117,7 @@ class ContactsElementBuilder {
             "width-15rem",
             "margin-1rem",
             "text-align-center",
-            "font-family-book-antiqua",
+            "font-family-annabelle",
             "font-size-091rem"
         );
 
